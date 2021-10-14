@@ -4,6 +4,7 @@
 [**Powershell**](#PowerShell)
   * [**1 - Installation**](#Installation)
   * [**2 - Customization**](#Customization)
+[**Documentation**](#Documentation)
 
 ## PowerShell 
 
@@ -86,7 +87,13 @@
     ```
 
 
-
+## Documentation 
+* [CascadiaCore-Original-Font](https://github.com/microsoft/cascadia-code "CascadiaCore-Original-Font")
+* [Nerd Fonts](https://www.nerdfonts.com/ "Nerd Fonts")
+* [Oh-My-Posh](https://ohmyposh.dev/ "Oh-My-Posh")
+* [PowerLine-Extra-Symbols](https://github.com/ryanoasis/powerline-extra-symbols "PowerLine-Extra-Symbols")
+* [Windows-Terminal-Powerline-Docs](https://docs.microsoft.com/en-us/windows/terminal/tutorials/powerline-setup "Windows-Terminal-Powerline-Docs")
+* [Pretty-Prompt-By-Hanselman](https://www.hanselman.com/blog/how-to-make-a-pretty-prompt-in-windows-terminal-with-powerline-nerd-fonts-cascadia-code-wsl-and-ohmyposh "Pretty-Prompt-By-Hanselman")
 
 
    
