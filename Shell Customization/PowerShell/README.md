@@ -1,5 +1,5 @@
 # Shell Customization
----
+
 ## Table of Contents
 [**Powershell**](#PowerShell)
   * [**1 - Examples**](#Examples)
@@ -9,23 +9,23 @@
 [**Documentation**](#Documentation)
 
 ## PowerShell 
----
+
 ### Examples
 ---
-#### Baller Shell
+`Baller Shell`
 
 <h1 align="center">
 <img src="images/baller-shell.gif" />
 </h1>
 
-#### Fire Shell
+`Fire Shell`
 
 <h1 align="center">
 <img src="images/fire-shell.png" alt="Nerd Fonts Logo" />
 </h1>
 
 ### Installation 
-
+---
 1. Open a PowerShell window and run these commands:
    
     ```
@@ -57,9 +57,7 @@
 
 7. Open Windows Terminal and open the settings json. Then copy over the settings
    json from here to there.
-
-
-
+   
 ### Customization
 ---
 * Adding a font to a settings section
