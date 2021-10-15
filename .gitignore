@@ -11,6 +11,8 @@
 *.dbproj.schemaview
 *.pfx
 *.publishsettings
+
+#JavaScript Projects
 node_modules/
 
 # Build results
@@ -57,6 +59,17 @@ csx/
 *.build.csdef
 Generated_Code/
 
+#Programatic
+*.exe
+*.dll
+*.pdb
+*.jar
+*.bin
+*.dat
+*.db3
+*.lib
+*.msi
+*.pml
 
 # VS Code
 .vs/
