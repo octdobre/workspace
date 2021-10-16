@@ -32,6 +32,7 @@ _Fire Shell_
     Install-Module posh-git -Scope CurrentUser
     Install-Module oh-my-posh -Scope CurrentUser
     ```
+    In case you cannot run these commands check the [FAQ](#FAQ) section.
 
 2. Install CaskaydiaCove NF (**Nerd Font**) from **Nerd Fonts**.
 
@@ -102,6 +103,16 @@ _Fire Shell_
     "icon":"ms-appx:///ProfileIcons/{61c54bbd-c2c6-5271-96e7-009a87ff44bf}.png"
     ```
 
+## FAQ 
+
+
+* Cannot execute `Powershell` scripts!
+
+    To enable execution of unsigned `PowerShell` scripts.
+    ```
+    Set-ExecutionPolicy Bypass -Scope Process
+    Set-ExecutionPolicy -ExecutionPolicy Unrestricted
+    ```
 
 ## Documentation 
 * [CascadiaCore-Original-Font](https://github.com/microsoft/cascadia-code "CascadiaCore-Original-Font")
