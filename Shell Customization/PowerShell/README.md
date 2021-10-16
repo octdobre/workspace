@@ -6,6 +6,8 @@
   * [**2 - Installation**](#Installation)
   * [**3 - Customization**](#Customization)
 
+[**FAQ**](#FAQ)
+
 [**Documentation**](#Documentation)
 
 ## PowerShell 
@@ -56,7 +58,7 @@ _Fire Shell_
    C:\Users\octdo\Documents\WindowsPowerShell\Modules\oh-my-posh\5.7.1\themes
    ```
 
-7. Open `Windows Terminal` and open the settings json. Then copy over the settings
+7. Open **Windows Terminal** and open the settings json. Then copy over the settings
    `json` from here to there.
    
 ### Customization
@@ -92,7 +94,7 @@ _Fire Shell_
     b) Create a new **Oh-My-Posh** theme. Reference the theme inside the 
     `Powershell` profile.
 
-    c) Create a new `Windows Terminal` profile section. Remember to generate a new `GUID` for the profile Id. 
+    c) Create a new **Windows Terminal** profile section. Remember to generate a new `GUID` for the profile Id. 
     
     d) Reference the `PowerShell` profile like so:
     ```
