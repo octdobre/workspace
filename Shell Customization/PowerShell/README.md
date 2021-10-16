@@ -11,33 +11,33 @@
 ## PowerShell 
 
 ### Examples
----
-`Baller Shell`
+
+_Baller Shell_
 
 <h1 align="center">
 <img src="images/baller-shell.gif" />
 </h1>
 
-`Fire Shell`
+_Fire Shell_
 
 <h1 align="center">
 <img src="images/fire-shell.png" alt="Nerd Fonts Logo" />
 </h1>
 
 ### Installation 
----
-1. Open a PowerShell window and run these commands:
+
+1. Open a `PowerShell` window and run these commands:
    
     ```
     Install-Module posh-git -Scope CurrentUser
     Install-Module oh-my-posh -Scope CurrentUser
     ```
 
-2. Install CaskaydiaCove NF (Nerd Font) from Nerd Fonts.
+2. Install CaskaydiaCove NF (**Nerd Font**) from **Nerd Fonts**.
 
-3. Install Git for Windows.
+3. Install **Git for Windows**.
 
-5. Type `echo $profile` in a PowerShell window and find out the location of the
+5. Type `echo $profile` in a `PowerShell` window and find out the location of the
    profile. If the profile doesn't exist type `code $profile` and it should 
    create a default one if it doesn't exist, otherwise it opens it.
 
@@ -46,7 +46,7 @@
     C:\Users\octdo\Documents\WindowsPowerShell\
     Microsoft.PowerShell_profile.ps1
     ```
-    This is where the PowerShell profiles need to be copied.
+    This is where the `PowerShell` profiles need to be copied.
 
 6. Copy the `.omp.json` theme to the themes folder.
 
@@ -55,14 +55,14 @@
    C:\Users\octdo\Documents\WindowsPowerShell\Modules\oh-my-posh\5.7.1\themes
    ```
 
-7. Open Windows Terminal and open the settings json. Then copy over the settings
-   json from here to there.
+7. Open `Windows Terminal` and open the settings json. Then copy over the settings
+   `json` from here to there.
    
 ### Customization
----
-* Adding a font to a settings section
 
-    In the settings json section add this section:
+* Adding a _font_ to a settings section
+
+    In the settings `json` section add this section:
 
     ```
     "font": 
@@ -71,9 +71,9 @@
         },
     ```
 
-* To view available Oh-My-Posh Themes
+* To view available **Oh-My-Posh** Themes
     `Get-PoshThemes`
-* Setting a Oh-My-Posh Theme from existing ones
+* Setting a **Oh-My-Posh** Theme from existing ones
     `Set-PoshPrompt -Theme paradox`
 
 
@@ -88,16 +88,16 @@
     a) Create a new `Microsoft.PowerShell_profile.ps1`, or copy this one. 
     Remember to rename it.
 
-    b) Create a new Oh-My-Posh theme. Reference the theme inside the 
-    Powershell profile.
+    b) Create a new **Oh-My-Posh** theme. Reference the theme inside the 
+    `Powershell` profile.
 
-    c) Create a new Windows Terminal profile section. Remember to generate a new GUID for the profile Id. 
+    c) Create a new `Windows Terminal` profile section. Remember to generate a new `GUID` for the profile Id. 
     
-    d) Reference the PowerShell profile like so:
+    d) Reference the `PowerShell` profile like so:
     ```
     "commandline": "powershell.exe -noexit -noprofile -f %USERPROFILE%\\Documents\\WindowsPowerShell\\<insert here ps profile>.ps1",
     ```
-    e) Reference correct PowerShell icon in the profile:
+    e) Reference correct `PowerShell` icon in the profile:
     ```
     "icon":"ms-appx:///ProfileIcons/{61c54bbd-c2c6-5271-96e7-009a87ff44bf}.png"
     ```
