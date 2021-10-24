@@ -1,29 +1,13 @@
 #This is the Install PowerShell script
-#It provides a intective way to select and automatically install a 
-#series programs and tools using winget 
-
-<#
-  main layout
-   - options menu -done
-   - save options in a list -done
-   - based on options list build json -done
-   - write json to file 
-   - run winget install packages.json
-
-  secondary
-    - write yes/no prompt function -done
-    - write objects                -done
-    - write to convert to json     -done
-    - run winget based on file 
-    - cleanup ? 
-#>
-
 
 #------------------------------------------------------------------------------------
 #Program Aggregate
 
 function CreateInstallProgram(){
 
+
+    #This is the Main Packages Aggregate
+    #This is transformed to the final JSON to be fed to winget
     function CreatePackagesJson(){
 
         $SourcesArray = [System.Collections.ArrayList]::new()
@@ -155,6 +139,7 @@ function CreateInstallProgram(){
             return $this       
         }
         
+        #Main function for prompt messages and decisions
         Add-Member -memberType ScriptMethod -InputObject $PackageGroup -Name "IsSelected" -Value {
             $yes = New-Object System.Management.Automation.Host.ChoiceDescription '&Yes', 'Install the above mentioned programs'    
             $no = New-Object System.Management.Automation.Host.ChoiceDescription '&No', 'Skip the above mentioned programs'
@@ -184,6 +169,7 @@ function CreateInstallProgram(){
         return $PackageGroup
     }
 
+    #Run prompt questions and sort programs in respective buckets
     Add-Member -memberType ScriptMethod -InputObject $InstallProgram -Name "RunPromptQuestions" -Value {
 
         foreach($packageGroup in $this.PackageGroups){
@@ -207,7 +193,6 @@ function CreateInstallProgram(){
         #Remove empty package groups
         $this.PackagesJson.RemoveEmptySources()
         
-        
         Clear-Host
     }
 
@@ -215,7 +200,7 @@ function CreateInstallProgram(){
 
         $this.RunPromptQuestions()
         Clear-Host
-        #Write-Host "Aggregate object output:"
+
         Write-Host "Running winget and installing the selected programs, please wait..."
         ConvertTo-Json -depth 10 $this.PackagesJson |
             Set-Content .\Packages.json
@@ -228,6 +213,8 @@ function CreateInstallProgram(){
     return $InstallProgram
 }
 #------------------------------------------------------------------------------------
+#Customized Program List
+#Change this list to your liking
 
 $program = CreateInstallProgram
 
