@@ -7,6 +7,8 @@ _This script requires WinGet to be installed._
 Use this tool to install your **Windows** device from a fresh install.
 This script is customized for me, but it can be easily customized for anyone's needs.
 
+_MSStore Packages required you to be signed in to Microsoft Store._
+
 <h1 align="center">
 <img src="images/instaltool.gif" alt="Install Script" />
 </h1>

@@ -233,6 +233,12 @@ $program.CreatePackageGroup("Internet").
 AddWingetPackage("Google.Chrome","Google Chrome").
 AddWingetPackage("qBittorrent.qBittorrent","Torrent client")
 
+$program.CreatePackageGroup("Alternative Internet Browser 1").
+AddWingetPackage("eloston.ungoogled-chromium","UnGoogled Chromium")
+
+$program.CreatePackageGroup("Alternative Internet Browser 2").
+AddWingetPackage("BraveSoftware.BraveBrowser","Brave Browser")
+
 $program.CreatePackageGroup("Reinstall and cleanup").
 AddWingetPackage("Rufus.Rufus","Rufus").
 AddWingetPackage("CrystalIDEASoftware.UninstallTool","Uninstall Tool")
@@ -243,6 +249,7 @@ AddWingetPackage("clsid2.mpc-hc","MPC-HC")
 
 $program.CreatePackageGroup("Basic Software Development").
 AddWingetPackage("Microsoft.WindowsTerminal","Windows Terminal").
+AddWingetPackage("gerardog.gsudo","gsudo").
 AddWingetPackage("Notepad++.Notepad++","Notepad++").
 AddWingetPackage("Microsoft.VisualStudioCode","VSCode").
 AddWingetPackage("Docker.DockerDesktop","Docker Desktop")
@@ -258,12 +265,16 @@ AddWingetPackage("OBSProject.OBSStudio","OBS Studio").
 AddWingetPackage("OpenShot.OpenShot","OpenShot").
 AddWingetPackage("HandBrake.HandBrake","HandBrake")
 
+$program.CreatePackageGroup("Presentation").
+AddWingetPackage("NickeManarin.ScreenToGif","ScreenToGif")
+
 $program.CreatePackageGroup("Hardware related software").
 AddWingetPackage("AMD.RyzenMaster","AMD RyzenMaster").
 AddWingetPackage("Logitech.LGS","Logitech Gaming Software Center")
 
 $program.CreatePackageGroup("Hardware benchmarking").
-AddWingetPackage("LCrystalDewWorld.CrystalDiskMark","CrystalDiskMark")
+AddWingetPackage("LCrystalDewWorld.CrystalDiskMark","CrystalDiskMark")#.
+#AddMSStorePackage("9PGZKJC81Q7J","Cinebench")
 
 $program.CreatePackageGroup("Gaming Platforms").
 AddWingetPackage("Ubisoft.Connect","Ubisoft Connect").
