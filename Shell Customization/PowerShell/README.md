@@ -123,12 +123,5 @@ _Fire Shell_
 * [PowerLine-Extra-Symbols](https://github.com/ryanoasis/powerline-extra-symbols "PowerLine-Extra-Symbols")
 * [Windows-Terminal-Powerline-Docs](https://docs.microsoft.com/en-us/windows/terminal/tutorials/powerline-setup "Windows-Terminal-Powerline-Docs")
 * [Pretty-Prompt-By-Hanselman](https://www.hanselman.com/blog/how-to-make-a-pretty-prompt-in-windows-terminal-with-powerline-nerd-fonts-cascadia-code-wsl-and-ohmyposh "Pretty-Prompt-By-Hanselman")
-
-
-   
-
-
-
-
-
-
+* [TerminalSplash](https://terminalsplash.com/ "Terminal Splash")
+* [Style-Your-Windows-Terminal](https://medium.com/@hjgraca/style-your-windows-terminal-and-wsl2-like-a-pro-9a2e1ad4c9d0 "Style Your Windows Terminal")
