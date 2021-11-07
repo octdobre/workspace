@@ -25,7 +25,7 @@ Usage Example:
 #Full   .\WindowsSandboxBootstrap.ps1 myWingetImportJson.json  -Script myPowerShellScript.ps1  -ScriptBlock { Write-Host "HelloWorld" }  -MapFolder "C:\SomePathToAFolder"
 #Or     .\WindowsSandboxBootstrap.ps1 myWingetImportJson.json                  --> install tools with Winget
 #Or     .\WindowsSandboxBootstrap.ps1 -Script .\myPowerShellScript.ps1         --> run the ps script
-#Or     .\WindowsSandboxBootstrap.ps1 -ScriptBlock { Write-Host "HelloWorld" } --> run the ps script
+#Or     .\WindowsSandboxBootstrap.ps1 -ScriptBlock { Write-Host "HelloWorld" } --> run the ps script block
 #Or     .\WindowsSandboxBootstrap.ps1 -MapFolder "C:\SomePathToAFolder"        --> map the folder
 ```
 
