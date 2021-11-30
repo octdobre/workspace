@@ -1,3 +1,7 @@
+Windows Registry Editor Version 5.00
+
+; Dont be alarmed by the hex values, you can convert them back to strings by replacing ,00, with % before the conversion to reveal the real string
+; https://superuser.com/questions/251794/how-can-i-specify-reg-expand-sz-entries-in-a-reg-file
 ; Tested with VSCode Version 1.61.1
 ; Add the 'Open in VSCode' context menu in folder and files
 ; The "Icon" line adds the correct icon, can be replaced with any icon
@@ -5,25 +9,24 @@
 ; This will make it appear when you right click ON a text file
 [HKEY_CLASSES_ROOT\*\shell\Open with VS Code]
 @="Edit with VS Code"
-"Icon"="%USERPROFILE%\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe\\Code.exe,0"
+"Icon"=hex(2):22,00,25,00,55,00,53,00,45,00,52,00,50,00,52,00,4f,00,46,00,49,00,4c,00,45,00,25,00,5c,00,41,00,70,00,70,00,44,00,61,00,74,00,61,00,5c,00,4c,00,6f,00,63,00,61,00,6c,00,5c,00,50,00,72,00,6f,00,67,00,72,00,61,00,6d,00,73,00,5c,00,4d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,00,74,00,20,00,56,00,53,00,20,00,43,00,6f,00,64,00,65,00,5c,00,43,00,6f,00,64,00,65,00,2e,00,65,00,78,00,65,00,22,00,2c,00,30,00
 
 [HKEY_CLASSES_ROOT\*\shell\Open with VS Code\command]
-@="\"%USERPROFILE%\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe\\Code.exe\" \"%1\""
-
+@=hex(2):22,00,25,00,55,00,53,00,45,00,52,00,50,00,52,00,4f,00,46,00,49,00,4c,00,45,00,25,00,5c,00,41,00,70,00,70,00,44,00,61,00,74,00,61,00,5c,00,4c,00,6f,00,63,00,61,00,6c,00,5c,00,50,00,72,00,6f,00,67,00,72,00,61,00,6d,00,73,00,5c,00,4d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,00,74,00,20,00,56,00,53,00,20,00,43,00,6f,00,64,00,65,00,5c,00,43,00,6f,00,64,00,65,00,2e,00,65,00,78,00,65,00,22,00,20,00,22,00,25,00,31,00,22,00
 
 ; This will make it appear when you right click ON a folder
 [HKEY_CLASSES_ROOT\Directory\shell\vscode]
 @="Open Folder as VS Code Project"
-"Icon"="\"%USERPROFILE%\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe\\Code.exe\",0"
+"Icon"=hex(2):22,00,25,00,55,00,53,00,45,00,52,00,50,00,52,00,4f,00,46,00,49,00,4c,00,45,00,25,00,5c,00,41,00,70,00,70,00,44,00,61,00,74,00,61,00,5c,00,4c,00,6f,00,63,00,61,00,6c,00,5c,00,50,00,72,00,6f,00,67,00,72,00,61,00,6d,00,73,00,5c,00,4d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,00,74,00,20,00,56,00,53,00,20,00,43,00,6f,00,64,00,65,00,5c,00,43,00,6f,00,64,00,65,00,2e,00,65,00,78,00,65,00,22,00,2c,00,30,00
 
 [HKEY_CLASSES_ROOT\Directory\shell\vscode\command]
-@="\"%USERPROFILE%\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe\\Code.exe\" \"%1\""
+@=hex(2):22,00,25,00,55,00,53,00,45,00,52,00,50,00,52,00,4f,00,46,00,49,00,4c,00,45,00,25,00,5c,00,41,00,70,00,70,00,44,00,61,00,74,00,61,00,5c,00,4c,00,6f,00,63,00,61,00,6c,00,5c,00,50,00,72,00,6f,00,67,00,72,00,61,00,6d,00,73,00,5c,00,4d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,00,74,00,20,00,56,00,53,00,20,00,43,00,6f,00,64,00,65,00,5c,00,43,00,6f,00,64,00,65,00,2e,00,65,00,78,00,65,00,22,00,20,00,22,00,25,00,31,00,22,00
 
 
 ; This will make it appear when you right click INSIDE a folder
 [HKEY_CLASSES_ROOT\Directory\Background\shell\vscode]
 @="Open Folder as VS Code Project"
-"Icon"="\"%USERPROFILE%\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe\\Code.exe\",0"
+"Icon"=hex(2):22,00,25,00,55,00,53,00,45,00,52,00,50,00,52,00,4f,00,46,00,49,00,4c,00,45,00,25,00,5c,00,41,00,70,00,70,00,44,00,61,00,74,00,61,00,5c,00,4c,00,6f,00,63,00,61,00,6c,00,5c,00,50,00,72,00,6f,00,67,00,72,00,61,00,6d,00,73,00,5c,00,4d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,00,74,00,20,00,56,00,53,00,20,00,43,00,6f,00,64,00,65,00,5c,00,43,00,6f,00,64,00,65,00,2e,00,65,00,78,00,65,00,22,00,2c,00,30,00
 
 [HKEY_CLASSES_ROOT\Directory\Background\shell\vscode\command]
-@="\"%USERPROFILE%\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe\" \"%V\""
+@=hex(2):22,00,25,00,55,00,53,00,45,00,52,00,50,00,52,00,4f,00,46,00,49,00,4c,00,45,00,25,00,5c,00,41,00,70,00,70,00,44,00,61,00,74,00,61,00,5c,00,4c,00,6f,00,63,00,61,00,6c,00,5c,00,50,00,72,00,6f,00,67,00,72,00,61,00,6d,00,73,00,5c,00,4d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,00,74,00,20,00,56,00,53,00,20,00,43,00,6f,00,64,00,65,00,5c,00,43,00,6f,00,64,00,65,00,2e,00,65,00,78,00,65,00,22,00,20,00,22,00,25,00,56,00,22,00
