@@ -35,7 +35,8 @@ If you use the functionality `"Clone Repo to Volume"` you can find the volumes
 in Windows navigating to `\\wsl$\docker-desktop-data\version-pack-data\community\docker\volumes`
 
 Below is an example of how to use `"Clone Repo to Volume"` and possibly a bug.
-<iframe width="700" height="400" src="https://www.youtube.com/embed/79wq_V7dr84" title="Clone Repo in Volume does not override if volume already exists" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[![Clone Repo in Volume does not override if volume already exists](https://img.youtube.com/vi/79wq_V7dr84/0.jpg)](https://www.youtube.com/watch?v=79wq_V7dr84)
 
 
 ## :books: Documentation
