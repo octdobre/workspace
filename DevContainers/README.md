@@ -23,8 +23,8 @@ Copy one to your workspace and use the context menu to open directly in a **DevC
 
 ## :boom: Mixing them all together
 
-<h1 align="center">
-<img src="images/devcontainer.gif" alt="DevcontainerGif" />
+<h1 align="left">
+<img src="images/devcontainer.gif" alt="DevcontainerGif" width="600px" height="450px"/>
 </h1>
 
 ## :floppy_disk: Using Volumes
