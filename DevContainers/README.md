@@ -1,9 +1,10 @@
 # DevContainers
 
 
-## TLDR
- This is not me repeating  what is already here 👉 🔗 [VSCode DevContainers](https://code.visualstudio.com/docs/remote/create-dev-container "VSCode DevContainers")
 
+Deep-Dive 👉 🔗 [VSCode DevContainers](https://code.visualstudio.com/docs/remote/create-dev-container "VSCode DevContainers")
+
+## TLDR
 :rocket: **Zero-to-Hero**   
 
 * Install **Docker-Desktop** :point_right: `winget install docker`
