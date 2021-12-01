@@ -1,6 +1,6 @@
 # Windows Scripts
 
-### Decrapifier
+### Decrapifier :hankey:
 
 **!!Use this script at your own risk!!**
 
