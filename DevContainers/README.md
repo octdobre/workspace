@@ -2,7 +2,7 @@
 
 
 
-Deep-Dive 👉 🔗 [VSCode DevContainers](https://code.visualstudio.com/docs/remote/create-dev-container "VSCode DevContainers")
+Deep-Dive :point_right::link: [VSCode DevContainers](https://code.visualstudio.com/docs/remote/create-dev-container "VSCode DevContainers")
 
 ## TLDR
 :rocket: **Zero-to-Hero**   
@@ -42,6 +42,6 @@ Below is an example of how to use `"Clone Repo to Volume"` and possibly a bug.
 
 ## :books: Documentation
 
-🔗 [Using Docker containers in VS Code](https://www.youtube.com/watch?v=PGsMy75ffPM 'Using Docker containers in VS Code')
+:link: [Using Docker containers in VS Code](https://www.youtube.com/watch?v=PGsMy75ffPM 'Using Docker containers in VS Code')
 
-🔗 [GitHub Issue on "Clone Repo in Volume"](https://github.com/microsoft/vscode-remote-release/issues/5453 'GitHub Issue on "Clone Repo in Volume')
+:link: [GitHub Issue on "Clone Repo in Volume"](https://github.com/microsoft/vscode-remote-release/issues/5453 'GitHub Issue on "Clone Repo in Volume')
