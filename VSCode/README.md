@@ -22,9 +22,41 @@ checkboxes in the wizard.
 * Run the script `AddVSCodeToContextMenu.reg` to add the context menu items.
 
 
+### Remote SSH with RSA Key :key:
+
+You can use **VSCode** to connect to a remote machine and edit `files` and `folders` on that machine.:eyeglasses:
+
+:exclamation:Make sure you have installed the `Remote Development` extension pack.:exclamation:
+
+Make sure :exclamation: you have the `id_rsa` file in the `C:/Users/myuser/.ssh` folder 
+otherwise check this :point_right: :link: [Tutorial](https://github.com/octdobre/linux/blob/main/SSH/README.md#logging-in-with-rsa-keyskeykeywindows-side 'Create RSA Key') on how to create it.
+
+Now run `Remote-SSH: Add New SSH Host...` command in `VSCode` to add the host entry
+```
+ssh -i ~/.ssh/config myremoteuser@192.168.1.100
+```
+This will create a file called `config` in the `C:/Users/myuser/.ssh` folder.
+
+Contents of `config` should be like this:
+```
+Host 192.168.1.100
+  HostName 192.168.1.100 
+  User myremoteuser   
+```
+
+With `id_rsa` and `config` file setup run  `Remote-SSH: Connect to SSH Host...`
+and start hacking! :eyeglasses::computer:
+
+:point_right: :link: [More Here](https://code.visualstudio.com/docs/remote/ssh#:~:text=The%20Visual%20Studio%20Code%20Remote,anywhere%20on%20the%20remote%20filesystem. 'VSCode SSH')
+
+
 ### VSCode Important Folders
 * `%APPDATA%\Code\User` - Location of User Data
 * `%APPDATA%\Code\User\workspaceStorage` - Location of individual workspace settings
     * `workspace.json` is a `JSON` file that contains the `URI` of the workspace folder. 
 	* `state.vscdb` (and `state.vscdb.backup`) are **SQLite3** files that contain the workspace information
 * `%USERPROFILE%\.vscode\extensions` - Location of extensions
+
+
+
+
