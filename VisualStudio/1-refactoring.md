@@ -416,7 +416,7 @@ or design issues.
 
 ---
 <a name="coverage"></a>
-### Code Metrics
+## Code Metrics
 `Analyze > Calculate Code Metrics`
 
 - **Roslyn Analyzers** can also be used to produce code metrics.
