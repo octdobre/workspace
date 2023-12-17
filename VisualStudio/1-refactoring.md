@@ -1,4 +1,4 @@
-# Visual Studio C# Series Part 1: Refactoring
+# Visual Studio C# Series Part 1: Formatting and Refactoring
 
 This is a **Visual Studio** series on the most important features available for a C# developer.
 
