@@ -133,7 +133,7 @@ the key combination to `Not assigned` in the the hotkeys menu.
 | `CTRL + M, CTRL + M`| Expand or collapse outlining |
 
 ---
-### Find
+### Find and Replace
 | Combination | Description |
 |---|---|
 | `CTRL + F ` | Opens `Quick Search` window (also replace)|
