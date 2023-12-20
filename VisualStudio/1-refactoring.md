@@ -151,6 +151,12 @@ the key combination to `Not assigned` in the the hotkeys menu.
 | `CTRL + SHIFT + ]` | Select block from including opening bracket to including closing bracket |
 | `CTRL + ]` | Find another bracket in the pair (toggle between opening and closing bracket) |
 
+---
+### Paste code as JSON
+
+` Edit > Paste Special > Paste JSON As Classes ` Creates a C# class from a json object.
+
+---
 <a name="codestyles"></a>
 ## Code Styles :dancer:
 
@@ -441,6 +447,9 @@ or design issues.
 | `CTRL + HOVER 2 SEC + LCLICK` | Go To Definition |
 | `CTRL + SHIFT + V` | Show clipboard history |
 | `CTRL + TAB`| IDE Navigator |
+| `ALt + TILDER SYMBOL `| Open a different context menu in the editor |
+| `SHIFT + ALT + ENTER `| Open editor file in FULL SCREEN |
+| `SHIFT + ENTER` | (Only inside a string) Add new line inside a string |
 
 ---
 <a name="glossary"></a>
