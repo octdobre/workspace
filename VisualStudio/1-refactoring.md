@@ -340,6 +340,9 @@ Common quick actions:
 - Add missing code
 - Code transformations
 
+- **Preview Window** - preview changes without applying them
+    * Press `SHIFT + ENTER` after opening the **Quick Actions** Window to open the **Preview Window**
+
 ---
 <a name="intellicode"></a>
 ## IntelliCode(AI-enhanced IntelliSense) - :thumbsup: AI Assisted Code Completions :thumbsup:
