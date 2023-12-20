@@ -447,7 +447,7 @@ or design issues.
 | `CTRL + HOVER 2 SEC + LCLICK` | Go To Definition |
 | `CTRL + SHIFT + V` | Show clipboard history |
 | `CTRL + TAB`| IDE Navigator |
-| `ALt + TILDER SYMBOL `| Open a different context menu in the editor |
+| `ALt + TILDE SYMBOL `| Open a different context menu in the text editor |
 | `SHIFT + ALT + ENTER `| Open editor file in FULL SCREEN |
 | `SHIFT + ENTER` | (Only inside a string) Add new line inside a string |
 
