@@ -31,7 +31,6 @@ what they are and what they actually do.
 - This setting defines the `TAB` size and if `SPACEs` should be inserted instead of `TABs`.
 - It also controlls `INDENTATION`.
 
-
 - **Smart indenting** (Smart indenting is the option you want, provided 
 you want the cursor to be correctly indented whenever you press `ENTER` 
 or the `UP` and `DOWN` arrow keys in the code. An example is when you create 
@@ -447,7 +446,7 @@ or design issues.
 | `CTRL + HOVER 2 SEC + LCLICK` | Go To Definition |
 | `CTRL + SHIFT + V` | Show clipboard history |
 | `CTRL + TAB`| IDE Navigator |
-| `ALt + TILDE SYMBOL `| Open a different context menu in the text editor |
+| `ALT + TILDE SYMBOL `| Open a different context menu in the text editor |
 | `SHIFT + ALT + ENTER `| Open editor file in FULL SCREEN |
 | `SHIFT + ENTER` | (Only inside a string) Add new line inside a string |
 
