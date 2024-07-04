@@ -133,6 +133,12 @@ Show gitconfig values
 git config --list --show-origin --show-scope
 ```
 
+### Replace remote origin
+
+```
+git remote set-url origin <copy this from either the HTTPS or the SSH textboxes>      
+```
+
 ## Troubleshooting
 
 View history:
