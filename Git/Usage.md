@@ -147,3 +147,9 @@ git log
 ```
 
 Use `q` to get out of the menu.
+
+
+## Documentation
+
+
+:point_right::link:[GIT Cheat Sheet](https://d3c33hcgiwev3.cloudfront.net/SspDywPOSySKQ8sDzrskYA_e4f25a0bc3f44a89a282db515ce821e1_github-git-cheat-sheet.pdf?Expires=1721174400&Signature=Yyfwpx8BWXrHgK2MdY63rOQJvgjsCCUQDc6N99f~rZGPYoAJAWC3CJY9fugDm4gVYKT8Uu~SoS1gAcqI3XLTX~oULiFAji9tl7Xxypl4l5cSE6b8yrXPgV56xs01U~tkDa-Kmni6VzykTjSl3aEyDW2OBQwPmAW2H4G772gjQq0_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
