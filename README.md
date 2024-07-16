@@ -32,5 +32,8 @@
 
 <div align="center">
 
-&nbsp;&nbsp;&nbsp;[Git](Git/Usage.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[GitHub with SSH](Git/GithubWithSSH.md)&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;[Git](Git/Usage.md)&nbsp;&nbsp;&nbsp;|
+&nbsp;&nbsp;&nbsp;[GitHub with SSH](Git/GithubWithSSH.md)&nbsp;&nbsp;&nbsp;|
+&nbsp;&nbsp;&nbsp;[Dev Hints](https://devhints.io/)&nbsp;&nbsp;&nbsp;
 </div>
+

@@ -7,7 +7,9 @@ Git is a distributed version control system (DVCS) designed for speed, data inte
 
 ## Repositories
 
-Create a local repository:
+### Create a local repository
+
+Create a folder and open the command line in that folder:
 ```
 git init
 ```
@@ -24,6 +26,25 @@ git clone <repo url> .
 Clone a repository and set a specific branch as active:
 ```
 git clone --branch <branch_name> <remote repository url> . 
+```
+
+### Create a local pointing to a remote
+
+Create folder and:
+```
+git init
+```
+Set the remote origin:
+```
+git remote add origin <urlhere>
+```
+Pull the branch:
+```
+git pull
+```
+You must checkout the master branch(or whatever is it called in your repo):
+```
+git checkout master
 ```
 
 ## Commits
@@ -119,7 +140,74 @@ Push a locally created branch to remote:
 git push origin <branch_name>
 ```
 
-# Merging
+### View current working branch
+Navigate to the `.git` folder:
+```
+cd .git
+```
+View the contents of the HEAD file:
+```
+cat HEAD
+```
+View the commit Id:
+```
+cat refs/heads/<branch_name>
+```
+
+## Merging
+
+### Resolving conflicts
+
+Pull the master branch:
+```
+git pull origin master
+```
+Diff the files:
+```
+git diff <filename>
+```
+Merge the files in a text editor and save.
+
+Commit the changes:
+```
+git commit -m "<insert message here>"
+```
+
+### Tools
+
+To view if there are changes:
+```
+git status
+```
+To view the content of the changes:
+```
+git diff
+```
+To show changes between HEAD and current:
+```
+git diff HEAD <current_branch>
+```
+To show changes between any two branches:
+```
+git diff <to_compare_to_branch_name> <current_branch>
+```
+To show changes between any two commits:
+```
+git diff <commit_id_1> <commit_id_2>
+```
+To view pretty changes:
+```
+git log -pretty=oneline
+```
+View and step through history:
+```
+git blame  <filename>
+```
+View history for a specific area in a file:
+```
+git blame -L <starting line, ending line>  <filename>
+git blame -L 5,1  file1.txt
+```
 
 ## Configuration
 
@@ -153,3 +241,9 @@ Use `q` to get out of the menu.
 
 
 :point_right::link:[GIT Cheat Sheet](https://d3c33hcgiwev3.cloudfront.net/SspDywPOSySKQ8sDzrskYA_e4f25a0bc3f44a89a282db515ce821e1_github-git-cheat-sheet.pdf?Expires=1721174400&Signature=Yyfwpx8BWXrHgK2MdY63rOQJvgjsCCUQDc6N99f~rZGPYoAJAWC3CJY9fugDm4gVYKT8Uu~SoS1gAcqI3XLTX~oULiFAji9tl7Xxypl4l5cSE6b8yrXPgV56xs01U~tkDa-Kmni6VzykTjSl3aEyDW2OBQwPmAW2H4G772gjQq0_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
+
+[Git cheat sheet](https://education.github.com/git-cheat-sheet-education.pdf)
+
+[Git patterns and antipatterns](https://www.youtube.com/watch?v=t_4lLR6F_yk)
+
+[Linus Tovals on Git](https://www.youtube.com/watch?v=4XpnKHJAok8)
