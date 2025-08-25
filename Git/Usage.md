@@ -28,7 +28,7 @@ Clone a repository and set a specific branch as active:
 git clone --branch <branch_name> <remote repository url> . 
 ```
 
-### Create a local pointing to a remote
+### Create a local repo and point it to a remote origin
 
 Create folder and:
 ```
